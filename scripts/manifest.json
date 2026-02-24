@@ -1,0 +1,1355 @@
+{
+  "accepted": [
+    {
+      "path": "data/WPD_file/SID_43044/SID43044_Fig5a.tar",
+      "name": "SID43044_Fig5a",
+      "sid": "SID_43044",
+      "y_range": [
+        2.0,
+        4.47
+      ],
+      "x_range": [
+        3.84,
+        3945.6
+      ],
+      "num_datasets": 6,
+      "total_points": 166
+    },
+    {
+      "path": "data/WPD_file/SID_43044/SID43044_Fig5b.tar",
+      "name": "SID43044_Fig5b",
+      "sid": "SID_43044",
+      "y_range": [
+        1.97,
+        4.77
+      ],
+      "x_range": [
+        2.23,
+        2842.52
+      ],
+      "num_datasets": 6,
+      "total_points": 105
+    },
+    {
+      "path": "data/WPD_file/SID_43044/SID43044_Fig5c.tar",
+      "name": "SID43044_Fig5c",
+      "sid": "SID_43044",
+      "y_range": [
+        2.0,
+        4.79
+      ],
+      "x_range": [
+        2.1,
+        500.0
+      ],
+      "num_datasets": 6,
+      "total_points": 131
+    },
+    {
+      "path": "data/WPD_file/SID_43044/SID43044_Fig5d.tar",
+      "name": "SID43044_Fig5d",
+      "sid": "SID_43044",
+      "y_range": [
+        1.96,
+        4.92
+      ],
+      "x_range": [
+        2.49,
+        505.22
+      ],
+      "num_datasets": 6,
+      "total_points": 94
+    },
+    {
+      "path": "data/WPD_file/SID_43044/SID43044_Fig5e.tar",
+      "name": "SID43044_Fig5e",
+      "sid": "SID_43044",
+      "y_range": [
+        2.2,
+        4.99
+      ],
+      "x_range": [
+        0.48,
+        498.9
+      ],
+      "num_datasets": 8,
+      "total_points": 148
+    },
+    {
+      "path": "data/WPD_file/SID_50106/SID51016_Fig10a.tar",
+      "name": "SID51016_Fig10a",
+      "sid": "SID_50106",
+      "y_range": [
+        2.03,
+        5.03
+      ],
+      "x_range": [
+        2.83,
+        1000.24
+      ],
+      "num_datasets": 6,
+      "total_points": 122
+    },
+    {
+      "path": "data/WPD_file/SID_50106/SID51016_Fig11a.tar",
+      "name": "SID51016_Fig11a",
+      "sid": "SID_50106",
+      "y_range": [
+        1.95,
+        4.82
+      ],
+      "x_range": [
+        3.8,
+        1005.91
+      ],
+      "num_datasets": 8,
+      "total_points": 179
+    },
+    {
+      "path": "data/WPD_file/SID_50799/SID_50799_Fig5.tar",
+      "name": "SID_50799_Fig5",
+      "sid": "SID_50799",
+      "y_range": [
+        2.02,
+        4.51
+      ],
+      "x_range": [
+        2.86,
+        2996.96
+      ],
+      "num_datasets": 4,
+      "total_points": 91
+    },
+    {
+      "path": "data/WPD_file/SID_50800/SID50800_Fig3.tar",
+      "name": "SID50800_Fig3",
+      "sid": "SID_50800",
+      "y_range": [
+        1.97,
+        4.02
+      ],
+      "x_range": [
+        0.55,
+        480.47
+      ],
+      "num_datasets": 8,
+      "total_points": 181
+    },
+    {
+      "path": "data/WPD_file/SID_50801/SID50801_Fig4a.tar",
+      "name": "SID50801_Fig4a",
+      "sid": "SID_50801",
+      "y_range": [
+        2.35,
+        3.49
+      ],
+      "x_range": [
+        -2.53,
+        1448.09
+      ],
+      "num_datasets": 3,
+      "total_points": 86
+    },
+    {
+      "path": "data/WPD_file/SID_50801/SID50801_Fig4b.tar",
+      "name": "SID50801_Fig4b",
+      "sid": "SID_50801",
+      "y_range": [
+        2.35,
+        3.49
+      ],
+      "x_range": [
+        -2.61,
+        978.21
+      ],
+      "num_datasets": 3,
+      "total_points": 97
+    },
+    {
+      "path": "data/WPD_file/SID_50801/SID50801_Fig4c.tar",
+      "name": "SID50801_Fig4c",
+      "sid": "SID_50801",
+      "y_range": [
+        2.34,
+        3.49
+      ],
+      "x_range": [
+        0.53,
+        439.17
+      ],
+      "num_datasets": 3,
+      "total_points": 69
+    },
+    {
+      "path": "data/WPD_file/SID_50801/SiD50801_Fig3.tar",
+      "name": "SiD50801_Fig3",
+      "sid": "SID_50801",
+      "y_range": [
+        2.35,
+        4.36
+      ],
+      "x_range": [
+        0.0,
+        1436.95
+      ],
+      "num_datasets": 8,
+      "total_points": 150
+    },
+    {
+      "path": "data/WPD_file/SID_51008/SID51008_Fig1a.tar",
+      "name": "SID51008_Fig1a",
+      "sid": "SID_51008",
+      "y_range": [
+        2.02,
+        2.77
+      ],
+      "x_range": [
+        -0.0,
+        18886.46
+      ],
+      "num_datasets": 5,
+      "total_points": 88
+    },
+    {
+      "path": "data/WPD_file/SID_51008/SID51008_Fig1b.tar",
+      "name": "SID51008_Fig1b",
+      "sid": "SID_51008",
+      "y_range": [
+        2.01,
+        2.75
+      ],
+      "x_range": [
+        69.32,
+        13113.95
+      ],
+      "num_datasets": 5,
+      "total_points": 90
+    },
+    {
+      "path": "data/WPD_file/SID_51008/SID51008_Fig1c.tar",
+      "name": "SID51008_Fig1c",
+      "sid": "SID_51008",
+      "y_range": [
+        2.02,
+        2.67
+      ],
+      "x_range": [
+        15.37,
+        4284.06
+      ],
+      "num_datasets": 5,
+      "total_points": 60
+    },
+    {
+      "path": "data/WPD_file/SID_51009/SID51009_Fig4c.tar",
+      "name": "SID51009_Fig4c",
+      "sid": "SID_51009",
+      "y_range": [
+        2.02,
+        2.74
+      ],
+      "x_range": [
+        66.7,
+        10596.6
+      ],
+      "num_datasets": 4,
+      "total_points": 73
+    },
+    {
+      "path": "data/WPD_file/SID_51010/SID51010_Fig4a.tar",
+      "name": "SID51010_Fig4a",
+      "sid": "SID_51010",
+      "y_range": [
+        2.03,
+        4.41
+      ],
+      "x_range": [
+        13.57,
+        8509.86
+      ],
+      "num_datasets": 8,
+      "total_points": 139
+    },
+    {
+      "path": "data/WPD_file/SID_51010/SID51010_Fig4c.tar",
+      "name": "SID51010_Fig4c",
+      "sid": "SID_51010",
+      "y_range": [
+        2.6,
+        4.37
+      ],
+      "x_range": [
+        3.9,
+        998.84
+      ],
+      "num_datasets": 8,
+      "total_points": 172
+    },
+    {
+      "path": "data/WPD_file/SID_51011/SID51011_Fig2B.tar",
+      "name": "SID51011_Fig2B",
+      "sid": "SID_51011",
+      "y_range": [
+        2.67,
+        4.41
+      ],
+      "x_range": [
+        6.03,
+        993.7
+      ],
+      "num_datasets": 4,
+      "total_points": 69
+    },
+    {
+      "path": "data/WPD_file/SID_51011/SID51011_Fig2C.tar",
+      "name": "SID51011_Fig2C",
+      "sid": "SID_51011",
+      "y_range": [
+        2.39,
+        4.53
+      ],
+      "x_range": [
+        3.44,
+        994.03
+      ],
+      "num_datasets": 10,
+      "total_points": 215
+    },
+    {
+      "path": "data/WPD_file/SID_51011/SID51011_Fig2D.tar",
+      "name": "SID51011_Fig2D",
+      "sid": "SID_51011",
+      "y_range": [
+        2.55,
+        4.51
+      ],
+      "x_range": [
+        2.08,
+        999.26
+      ],
+      "num_datasets": 10,
+      "total_points": 214
+    },
+    {
+      "path": "data/WPD_file/SID_51012/SID51012_Fig10b.tar",
+      "name": "SID51012_Fig10b",
+      "sid": "SID_51012",
+      "y_range": [
+        1.97,
+        4.51
+      ],
+      "x_range": [
+        1.67,
+        997.43
+      ],
+      "num_datasets": 20,
+      "total_points": 465
+    },
+    {
+      "path": "data/WPD_file/SID_51012/SID51012_Fig10c.tar",
+      "name": "SID51012_Fig10c",
+      "sid": "SID_51012",
+      "y_range": [
+        1.97,
+        4.52
+      ],
+      "x_range": [
+        0.07,
+        995.6
+      ],
+      "num_datasets": 20,
+      "total_points": 204
+    },
+    {
+      "path": "data/WPD_file/SID_51012/SID51012_Fig9b.tar",
+      "name": "SID51012_Fig9b",
+      "sid": "SID_51012",
+      "y_range": [
+        1.97,
+        4.5
+      ],
+      "x_range": [
+        4.28,
+        14241.81
+      ],
+      "num_datasets": 6,
+      "total_points": 106
+    },
+    {
+      "path": "data/WPD_file/SID_51012/SID51012_Fig9d.tar",
+      "name": "SID51012_Fig9d",
+      "sid": "SID_51012",
+      "y_range": [
+        1.99,
+        4.5
+      ],
+      "x_range": [
+        92.54,
+        12845.5
+      ],
+      "num_datasets": 8,
+      "total_points": 131
+    },
+    {
+      "path": "data/WPD_file/SID_51012/SID51012_Fig9f.tar",
+      "name": "SID51012_Fig9f",
+      "sid": "SID_51012",
+      "y_range": [
+        2.0,
+        4.51
+      ],
+      "x_range": [
+        4.48,
+        616.92
+      ],
+      "num_datasets": 6,
+      "total_points": 110
+    },
+    {
+      "path": "data/WPD_file/SID_51013/SID51013_Fig6a.tar",
+      "name": "SID51013_Fig6a",
+      "sid": "SID_51013",
+      "y_range": [
+        2.01,
+        4.49
+      ],
+      "x_range": [
+        30.07,
+        10565.91
+      ],
+      "num_datasets": 8,
+      "total_points": 166
+    },
+    {
+      "path": "data/WPD_file/SID_51013/SID51013_Fig6b.tar",
+      "name": "SID51013_Fig6b",
+      "sid": "SID_51013",
+      "y_range": [
+        2.01,
+        4.52
+      ],
+      "x_range": [
+        3.5,
+        498.69
+      ],
+      "num_datasets": 12,
+      "total_points": 271
+    },
+    {
+      "path": "data/WPD_file/SID_51013/SID51013_Fig6d.tar",
+      "name": "SID51013_Fig6d",
+      "sid": "SID_51013",
+      "y_range": [
+        2.0,
+        4.5
+      ],
+      "x_range": [
+        -0.46,
+        496.79
+      ],
+      "num_datasets": 5,
+      "total_points": 101
+    },
+    {
+      "path": "data/WPD_file/SID_51013/SID51013_Fig8c.tar",
+      "name": "SID51013_Fig8c",
+      "sid": "SID_51013",
+      "y_range": [
+        1.98,
+        4.46
+      ],
+      "x_range": [
+        -1.53,
+        1081.02
+      ],
+      "num_datasets": 2,
+      "total_points": 50
+    },
+    {
+      "path": "data/WPD_file/SID_51013/SID51013_Fig8d.tar",
+      "name": "SID51013_Fig8d",
+      "sid": "SID_51013",
+      "y_range": [
+        1.99,
+        4.48
+      ],
+      "x_range": [
+        1.16,
+        516.28
+      ],
+      "num_datasets": 8,
+      "total_points": 219
+    },
+    {
+      "path": "data/WPD_file/SID_51014/SID51014_Fig5A.tar",
+      "name": "SID51014_Fig5A",
+      "sid": "SID_51014",
+      "y_range": [
+        2.19,
+        4.6
+      ],
+      "x_range": [
+        72.2,
+        11985.56
+      ],
+      "num_datasets": 2,
+      "total_points": 42
+    },
+    {
+      "path": "data/WPD_file/SID_51014/SID51014_Fig5B.tar",
+      "name": "SID51014_Fig5B",
+      "sid": "SID_51014",
+      "y_range": [
+        2.24,
+        4.6
+      ],
+      "x_range": [
+        18.48,
+        8073.9
+      ],
+      "num_datasets": 2,
+      "total_points": 39
+    },
+    {
+      "path": "data/WPD_file/SID_51015/SID51015_Fig2b.tar",
+      "name": "SID51015_Fig2b",
+      "sid": "SID_51015",
+      "y_range": [
+        2.71,
+        4.32
+      ],
+      "x_range": [
+        4.87,
+        994.15
+      ],
+      "num_datasets": 4,
+      "total_points": 104
+    },
+    {
+      "path": "data/WPD_file/SID_51015/SID51015_Fig2d.tar",
+      "name": "SID51015_Fig2d",
+      "sid": "SID_51015",
+      "y_range": [
+        1.95,
+        2.89
+      ],
+      "x_range": [
+        217.4,
+        18776.84
+      ],
+      "num_datasets": 6,
+      "total_points": 86
+    },
+    {
+      "path": "data/WPD_file/SID_51015/SID51015_Fig2f.tar",
+      "name": "SID51015_Fig2f",
+      "sid": "SID_51015",
+      "y_range": [
+        2.58,
+        4.73
+      ],
+      "x_range": [
+        0.18,
+        497.54
+      ],
+      "num_datasets": 10,
+      "total_points": 246
+    },
+    {
+      "path": "data/WPD_file/SID_51017/SID51017_Fig2b.tar",
+      "name": "SID51017_Fig2b",
+      "sid": "SID_51017",
+      "y_range": [
+        2.36,
+        4.17
+      ],
+      "x_range": [
+        22.5,
+        9988.75
+      ],
+      "num_datasets": 10,
+      "total_points": 225
+    },
+    {
+      "path": "data/WPD_file/SID_51017/SID51017_Fig2c.tar",
+      "name": "SID51017_Fig2c",
+      "sid": "SID_51017",
+      "y_range": [
+        2.62,
+        4.32
+      ],
+      "x_range": [
+        4.73,
+        4980.73
+      ],
+      "num_datasets": 12,
+      "total_points": 272
+    },
+    {
+      "path": "data/WPD_file/SID_51017/SID51017_Fig2d.tar",
+      "name": "SID51017_Fig2d",
+      "sid": "SID_51017",
+      "y_range": [
+        1.35,
+        3.73
+      ],
+      "x_range": [
+        20.6,
+        4972.25
+      ],
+      "num_datasets": 2,
+      "total_points": 49
+    },
+    {
+      "path": "data/WPD_file/SID_51017/SID51017_Fig2e.tar",
+      "name": "SID51017_Fig2e",
+      "sid": "SID_51017",
+      "y_range": [
+        2.54,
+        4.3
+      ],
+      "x_range": [
+        18.05,
+        4967.06
+      ],
+      "num_datasets": 10,
+      "total_points": 244
+    },
+    {
+      "path": "data/WPD_file/SID_51017/SID51017_Fig2f.tar",
+      "name": "SID51017_Fig2f",
+      "sid": "SID_51017",
+      "y_range": [
+        2.18,
+        4.12
+      ],
+      "x_range": [
+        30.19,
+        4974.39
+      ],
+      "num_datasets": 8,
+      "total_points": 158
+    },
+    {
+      "path": "data/WPD_file/SID_51018/SID51018_Fig4.tar",
+      "name": "SID51018_Fig4",
+      "sid": "SID_51018",
+      "y_range": [
+        2.2,
+        2.81
+      ],
+      "x_range": [
+        1.81,
+        271.33
+      ],
+      "num_datasets": 5,
+      "total_points": 112
+    },
+    {
+      "path": "data/WPD_file/SID_51019/SID51019_Fig4d.tar",
+      "name": "SID51019_Fig4d",
+      "sid": "SID_51019",
+      "y_range": [
+        2.69,
+        4.37
+      ],
+      "x_range": [
+        4.83,
+        999.53
+      ],
+      "num_datasets": 10,
+      "total_points": 196
+    },
+    {
+      "path": "data/WPD_file/SID_51019/SID51019_Fig5c.tar",
+      "name": "SID51019_Fig5c",
+      "sid": "SID_51019",
+      "y_range": [
+        2.68,
+        4.4
+      ],
+      "x_range": [
+        3.13,
+        994.1
+      ],
+      "num_datasets": 8,
+      "total_points": 134
+    },
+    {
+      "path": "data/WPD_file/SID_51020/SID51020_Fig3b.tar",
+      "name": "SID51020_Fig3b",
+      "sid": "SID_51020",
+      "y_range": [
+        1.28,
+        4.65
+      ],
+      "x_range": [
+        117.36,
+        13209.11
+      ],
+      "num_datasets": 6,
+      "total_points": 130
+    },
+    {
+      "path": "data/WPD_file/SID_51020/SID51020_Fig3c.tar",
+      "name": "SID51020_Fig3c",
+      "sid": "SID_51020",
+      "y_range": [
+        2.02,
+        4.53
+      ],
+      "x_range": [
+        65.02,
+        13176.89
+      ],
+      "num_datasets": 6,
+      "total_points": 143
+    },
+    {
+      "path": "data/WPD_file/SID_51020/SID51020_Fig3d.tar",
+      "name": "SID51020_Fig3d",
+      "sid": "SID_51020",
+      "y_range": [
+        1.33,
+        4.76
+      ],
+      "x_range": [
+        2.8,
+        1002.1
+      ],
+      "num_datasets": 12,
+      "total_points": 252
+    },
+    {
+      "path": "data/WPD_file/SID_51020/SID51020_Fig3e.tar",
+      "name": "SID51020_Fig3e",
+      "sid": "SID_51020",
+      "y_range": [
+        1.56,
+        4.76
+      ],
+      "x_range": [
+        1.17,
+        997.57
+      ],
+      "num_datasets": 12,
+      "total_points": 251
+    },
+    {
+      "path": "data/WPD_file/SID_51020/SID51020_Fig3f.tar",
+      "name": "SID51020_Fig3f",
+      "sid": "SID_51020",
+      "y_range": [
+        2.46,
+        4.79
+      ],
+      "x_range": [
+        -2.74,
+        999.09
+      ],
+      "num_datasets": 12,
+      "total_points": 247
+    },
+    {
+      "path": "data/WPD_file/SID_51021/SID51021_Fig6B.tar",
+      "name": "SID51021_Fig6B",
+      "sid": "SID_51021",
+      "y_range": [
+        1.99,
+        4.31
+      ],
+      "x_range": [
+        3.38,
+        3300.68
+      ],
+      "num_datasets": 10,
+      "total_points": 252
+    },
+    {
+      "path": "data/WPD_file/SID_51021/SID51021_Fig6D.tar",
+      "name": "SID51021_Fig6D",
+      "sid": "SID_51021",
+      "y_range": [
+        2.12,
+        4.31
+      ],
+      "x_range": [
+        0.2,
+        500.89
+      ],
+      "num_datasets": 20,
+      "total_points": 487
+    },
+    {
+      "path": "data/WPD_file/SID_51023/SID51023_Fig6b.tar",
+      "name": "SID51023_Fig6b",
+      "sid": "SID_51023",
+      "y_range": [
+        2.08,
+        4.38
+      ],
+      "x_range": [
+        -1.71,
+        500.7
+      ],
+      "num_datasets": 8,
+      "total_points": 154
+    },
+    {
+      "path": "data/WPD_file/SID_51023/SID51023_Fig7b.tar",
+      "name": "SID51023_Fig7b",
+      "sid": "SID_51023",
+      "y_range": [
+        2.48,
+        4.41
+      ],
+      "x_range": [
+        0.49,
+        199.78
+      ],
+      "num_datasets": 8,
+      "total_points": 165
+    },
+    {
+      "path": "data/WPD_file/SID_51024/SID51024_Fig1a.tar",
+      "name": "SID51024_Fig1a",
+      "sid": "SID_51024",
+      "y_range": [
+        2.59,
+        3.96
+      ],
+      "x_range": [
+        1.34,
+        997.6
+      ],
+      "num_datasets": 20,
+      "total_points": 547
+    },
+    {
+      "path": "data/WPD_file/SID_51024/SID51024_Fig1b.tar",
+      "name": "SID51024_Fig1b",
+      "sid": "SID_51024",
+      "y_range": [
+        2.66,
+        3.63
+      ],
+      "x_range": [
+        6.16,
+        997.84
+      ],
+      "num_datasets": 6,
+      "total_points": 148
+    },
+    {
+      "path": "data/WPD_file/SID_51024/SID51024_Fig1c.tar",
+      "name": "SID51024_Fig1c",
+      "sid": "SID_51024",
+      "y_range": [
+        2.52,
+        4.49
+      ],
+      "x_range": [
+        3.12,
+        997.07
+      ],
+      "num_datasets": 6,
+      "total_points": 186
+    },
+    {
+      "path": "data/WPD_file/SID_51024/SID51024_Fig1d.tar",
+      "name": "SID51024_Fig1d",
+      "sid": "SID_51024",
+      "y_range": [
+        2.69,
+        4.11
+      ],
+      "x_range": [
+        6.3,
+        995.02
+      ],
+      "num_datasets": 6,
+      "total_points": 138
+    },
+    {
+      "path": "data/WPD_file/SID_51026/SID51026_Fig3A.tar",
+      "name": "SID51026_Fig3A",
+      "sid": "SID_51026",
+      "y_range": [
+        2.14,
+        4.52
+      ],
+      "x_range": [
+        6.96,
+        3301.69
+      ],
+      "num_datasets": 6,
+      "total_points": 84
+    },
+    {
+      "path": "data/WPD_file/SID_51026/SID51026_Fig3B.tar",
+      "name": "SID51026_Fig3B",
+      "sid": "SID_51026",
+      "y_range": [
+        2.11,
+        4.43
+      ],
+      "x_range": [
+        2.37,
+        497.21
+      ],
+      "num_datasets": 10,
+      "total_points": 157
+    },
+    {
+      "path": "data/WPD_file/SID_51026/SID51026_Fig5A.tar",
+      "name": "SID51026_Fig5A",
+      "sid": "SID_51026",
+      "y_range": [
+        2.21,
+        4.4
+      ],
+      "x_range": [
+        29.7,
+        3713.81
+      ],
+      "num_datasets": 6,
+      "total_points": 102
+    },
+    {
+      "path": "data/WPD_file/SID_51026/SID51026_Fig5B.tar",
+      "name": "SID51026_Fig5B",
+      "sid": "SID_51026",
+      "y_range": [
+        2.25,
+        4.1
+      ],
+      "x_range": [
+        0.7,
+        497.61
+      ],
+      "num_datasets": 10,
+      "total_points": 196
+    },
+    {
+      "path": "data/WPD_file/SID_51027/SID51027_Fig4b.tar",
+      "name": "SID51027_Fig4b",
+      "sid": "SID_51027",
+      "y_range": [
+        1.94,
+        4.4
+      ],
+      "x_range": [
+        -3.01,
+        8825.02
+      ],
+      "num_datasets": 6,
+      "total_points": 119
+    },
+    {
+      "path": "data/WPD_file/SID_51027/SID51027_Fig4c.tar",
+      "name": "SID51027_Fig4c",
+      "sid": "SID_51027",
+      "y_range": [
+        1.98,
+        4.42
+      ],
+      "x_range": [
+        66.6,
+        8830.01
+      ],
+      "num_datasets": 8,
+      "total_points": 122
+    },
+    {
+      "path": "data/WPD_file/SID_51027/SID51027_Fig4e.tar",
+      "name": "SID51027_Fig4e",
+      "sid": "SID_51027",
+      "y_range": [
+        2.69,
+        4.33
+      ],
+      "x_range": [
+        5.74,
+        1002.84
+      ],
+      "num_datasets": 6,
+      "total_points": 112
+    },
+    {
+      "path": "data/WPD_file/SID_51027/SID51027_Fig4h.tar",
+      "name": "SID51027_Fig4h",
+      "sid": "SID_51027",
+      "y_range": [
+        1.49,
+        4.38
+      ],
+      "x_range": [
+        0.48,
+        1001.7
+      ],
+      "num_datasets": 6,
+      "total_points": 110
+    },
+    {
+      "path": "data/WPD_file/SID_51028/SID51028_Fig4A.tar",
+      "name": "SID51028_Fig4A",
+      "sid": "SID_51028",
+      "y_range": [
+        1.99,
+        4.45
+      ],
+      "x_range": [
+        2.0,
+        992.34
+      ],
+      "num_datasets": 6,
+      "total_points": 150
+    },
+    {
+      "path": "data/WPD_file/SID_51028/SID51028_Fig4B.tar",
+      "name": "SID51028_Fig4B",
+      "sid": "SID_51028",
+      "y_range": [
+        2.39,
+        4.34
+      ],
+      "x_range": [
+        1.26,
+        997.51
+      ],
+      "num_datasets": 6,
+      "total_points": 146
+    },
+    {
+      "path": "data/WPD_file/SID_51029/SID51029_Fig1a.tar",
+      "name": "SID51029_Fig1a",
+      "sid": "SID_51029",
+      "y_range": [
+        2.52,
+        3.52
+      ],
+      "x_range": [
+        -0.11,
+        199.61
+      ],
+      "num_datasets": 12,
+      "total_points": 317
+    },
+    {
+      "path": "data/WPD_file/SID_51029/SID51029_Fig1b.tar",
+      "name": "SID51029_Fig1b",
+      "sid": "SID_51029",
+      "y_range": [
+        2.62,
+        4.31
+      ],
+      "x_range": [
+        -0.16,
+        199.68
+      ],
+      "num_datasets": 12,
+      "total_points": 314
+    },
+    {
+      "path": "data/WPD_file/SID_51029/SID51029_Fig3a.tar",
+      "name": "SID51029_Fig3a",
+      "sid": "SID_51029",
+      "y_range": [
+        2.81,
+        4.25
+      ],
+      "x_range": [
+        0.19,
+        199.89
+      ],
+      "num_datasets": 6,
+      "total_points": 150
+    },
+    {
+      "path": "data/WPD_file/SID_51029/SID51029_Fig4a.tar",
+      "name": "SID51029_Fig4a",
+      "sid": "SID_51029",
+      "y_range": [
+        2.75,
+        4.26
+      ],
+      "x_range": [
+        -0.11,
+        299.47
+      ],
+      "num_datasets": 12,
+      "total_points": 235
+    },
+    {
+      "path": "data/WPD_file/SID_51029/SID51029_Fig4b.tar",
+      "name": "SID51029_Fig4b",
+      "sid": "SID_51029",
+      "y_range": [
+        2.6,
+        4.26
+      ],
+      "x_range": [
+        0.16,
+        754.22
+      ],
+      "num_datasets": 10,
+      "total_points": 207
+    },
+    {
+      "path": "data/WPD_file/SID_51030/SID51030_Fig3a.tar",
+      "name": "SID51030_Fig3a",
+      "sid": "SID_51030",
+      "y_range": [
+        2.0,
+        4.32
+      ],
+      "x_range": [
+        2.94,
+        2276.83
+      ],
+      "num_datasets": 6,
+      "total_points": 107
+    },
+    {
+      "path": "data/WPD_file/SID_51030/SID51030_Fig3b.tar",
+      "name": "SID51030_Fig3b",
+      "sid": "SID_51030",
+      "y_range": [
+        2.66,
+        4.22
+      ],
+      "x_range": [
+        3.55,
+        1001.77
+      ],
+      "num_datasets": 4,
+      "total_points": 109
+    },
+    {
+      "path": "data/WPD_file/SID_51032/SID51032_Fig8a.tar",
+      "name": "SID51032_Fig8a",
+      "sid": "SID_51032",
+      "y_range": [
+        2.63,
+        4.5
+      ],
+      "x_range": [
+        5.05,
+        997.44
+      ],
+      "num_datasets": 4,
+      "total_points": 93
+    },
+    {
+      "path": "data/WPD_file/SID_51032/SID51032_Fig8c.tar",
+      "name": "SID51032_Fig8c",
+      "sid": "SID_51032",
+      "y_range": [
+        2.78,
+        4.45
+      ],
+      "x_range": [
+        1.76,
+        998.87
+      ],
+      "num_datasets": 8,
+      "total_points": 187
+    },
+    {
+      "path": "data/WPD_file/SID_51033/SID51033_Fig14b.tar",
+      "name": "SID51033_Fig14b",
+      "sid": "SID_51033",
+      "y_range": [
+        1.95,
+        4.34
+      ],
+      "x_range": [
+        0.15,
+        300.1
+      ],
+      "num_datasets": 6,
+      "total_points": 89
+    },
+    {
+      "path": "data/WPD_file/SID_51033/SID51033_Fig15b.tar",
+      "name": "SID51033_Fig15b",
+      "sid": "SID_51033",
+      "y_range": [
+        1.99,
+        4.35
+      ],
+      "x_range": [
+        0.45,
+        388.14
+      ],
+      "num_datasets": 6,
+      "total_points": 106
+    },
+    {
+      "path": "data/WPD_file/SID_51104/SID51104_2g.tar",
+      "name": "SID51104_2g",
+      "sid": "SID_51104",
+      "y_range": [
+        2.22,
+        4.52
+      ],
+      "x_range": [
+        0.59,
+        397.85
+      ],
+      "num_datasets": 6,
+      "total_points": 109
+    },
+    {
+      "path": "data/WPD_file/SID_51104/SID51104_3a.tar",
+      "name": "SID51104_3a",
+      "sid": "SID_51104",
+      "y_range": [
+        2.01,
+        4.51
+      ],
+      "x_range": [
+        17.59,
+        14173.79
+      ],
+      "num_datasets": 16,
+      "total_points": 281
+    }
+  ],
+  "rejected": [
+    {
+      "path": "data/WPD_file/SID_50800/SID50800_Fig4.tar",
+      "name": "SID50800_Fig4",
+      "sid": "SID_50800",
+      "reason": "too few datasets (1)"
+    },
+    {
+      "path": "data/WPD_file/SID_51009/SID51009_Fig4d.tar",
+      "name": "SID51009_Fig4d",
+      "sid": "SID_51009",
+      "y_range": [
+        2.13,
+        4.38
+      ],
+      "x_range": [
+        7.65,
+        990.86
+      ],
+      "num_datasets": 2,
+      "total_points": 45,
+      "reason": "partial annotation (excluded manually)"
+    },
+    {
+      "path": "data/WPD_file/SID_51009/SID51009_Fig4e.tar",
+      "name": "SID51009_Fig4e",
+      "sid": "SID_51009",
+      "y_range": [
+        2.18,
+        4.43
+      ],
+      "x_range": [
+        7.52,
+        988.19
+      ],
+      "num_datasets": 2,
+      "total_points": 43,
+      "reason": "partial annotation (excluded manually)"
+    },
+    {
+      "path": "data/WPD_file/SID_51009/SID51009_Fig4f.tar",
+      "name": "SID51009_Fig4f",
+      "sid": "SID_51009",
+      "y_range": [
+        2.02,
+        4.6
+      ],
+      "x_range": [
+        4.6,
+        989.64
+      ],
+      "num_datasets": 2,
+      "total_points": 41,
+      "reason": "partial annotation (excluded manually)"
+    },
+    {
+      "path": "data/WPD_file/SID_51009/SID51009_Fig4g.tar",
+      "name": "SID51009_Fig4g",
+      "sid": "SID_51009",
+      "y_range": [
+        2.07,
+        4.86
+      ],
+      "x_range": [
+        5.99,
+        997.23
+      ],
+      "num_datasets": 2,
+      "total_points": 41,
+      "reason": "partial annotation (excluded manually)"
+    },
+    {
+      "path": "data/WPD_file/SID_51009/SID51009_Fig4h.tar",
+      "name": "SID51009_Fig4h",
+      "sid": "SID_51009",
+      "y_range": [
+        1.99,
+        4.9
+      ],
+      "x_range": [
+        8.47,
+        997.7
+      ],
+      "num_datasets": 2,
+      "total_points": 43,
+      "reason": "partial annotation (excluded manually)"
+    },
+    {
+      "path": "data/WPD_file/SID_51013/SID51013_Fig8e.tar",
+      "name": "SID51013_Fig8e",
+      "sid": "SID_51013",
+      "reason": "too few datasets (1)"
+    },
+    {
+      "path": "data/WPD_file/SID_51019/SID51019_Fig5d.tar",
+      "name": "SID51019_Fig5d",
+      "sid": "SID_51019",
+      "reason": "Y range [50.8, 1007.9] outside voltage range [1.0, 6.0]V"
+    },
+    {
+      "path": "data/WPD_file/SID_51021/SID51021_Fig6C.tar",
+      "name": "SID51021_Fig6C",
+      "sid": "SID_51021",
+      "reason": "too few datasets (1)"
+    },
+    {
+      "path": "data/WPD_file/SID_51021/SID51021_Fig7.tar",
+      "name": "SID51021_Fig7",
+      "sid": "SID_51021",
+      "reason": "too few datasets (1)"
+    },
+    {
+      "path": "data/WPD_file/SID_51027/SID51027_Fig4d.tar",
+      "name": "SID51027_Fig4d",
+      "sid": "SID_51027",
+      "reason": "Y range [995.8, 1020.9] outside voltage range [1.0, 6.0]V"
+    },
+    {
+      "path": "data/WPD_file/SID_51030/SID51030_Fig3c.tar",
+      "name": "SID51030_Fig3c",
+      "sid": "SID_51030",
+      "reason": "too few datasets (1)"
+    },
+    {
+      "path": "data/WPD_file/SID_51032/SID51032_Fig8d.tar",
+      "name": "SID51032_Fig8d",
+      "sid": "SID_51032",
+      "reason": "too few datasets (1)"
+    }
+  ],
+  "stats": {
+    "total_files": 94,
+    "accepted_count": 81,
+    "rejected_count": 13,
+    "total_line_annotations": 628
+  }
+}
