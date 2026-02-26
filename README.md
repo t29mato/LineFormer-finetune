@@ -1,99 +1,136 @@
-# LineFormer - Rethinking Chart Data Extraction as Instance Segmentation,
-Jay Lal, Aditya Mitkari*, [Mahesh Bhosale*](https://bhosalems.github.io/), David Doermann, International Conference on Document Analysis and Recognition, 2023.
+# LineFormer Fine-tuned on Battery Discharge Curves
 
-Official repository for the ICDAR 2023 Paper
+Fine-tuned version of [LineFormer](https://github.com/TheJaeLal/LineFormer) (ICDAR 2023) specialized for detecting line charts in battery charge/discharge curve figures from scientific papers.
 
-[<u>[Link]</u>](https://link.springer.com/chapter/10.1007/978-3-031-41734-4_24) to the paper.
+**Pre-trained model weights**: [Hugging Face Hub](https://huggingface.co/t29mato/lineformer-battery-finetuned)
 
-## Quantitative Results
-| Dataset             | AdobeSynth19 Visual Element Detection[^1] | Data Extraction[^2] | UB-PMC22 Visual Element Detection | Data Extraction | LineEX Visual Element Detection | Data Extraction |
-|---------------------|------------------------------------------|---------------------|----------------------------------|-----------------|---------------------------------|----------------|
-| [ChartOCR](https://openaccess.thecvf.com/content/WACV2021/papers/Luo_ChartOCR_Data_Extraction_From_Charts_Images_via_a_Deep_Hybrid_WACV_2021_paper.pdf)        | 84.67                                    | 55                  | 83.89                            | 72.9            | 86.47                           | 78.25          |
-| [Lenovo](https://link.springer.com/chapter/10.1007/978-3-030-86549-8_37)          | **99.29**                                | **98.81**          | 84.03                            | 67.01           | -                               | -              |
-| [LineEX](https://openaccess.thecvf.com/content/WACV2023/papers/P._LineEX_Data_Extraction_From_Scientific_Line_Charts_WACV_2023_paper.pdf)          | 82.52                                    | 81.97               | 50.23                         | 47.03           | 71.13                           | 71.08          |
-| [**Lineformer**](https://arxiv.org/abs/2305.01837) (Ours)   | 97.51                                    | 97.02               | **93.1**                          | **88.25**       | **99.20**                       | **97.57**      |
+## Performance
 
-[^1]: [task-6a from CHART-Info challenge](https://example.com/chart-info-task-6a)
-[^2]: [task-6b data score from CHART-Info challenge](https://example.com/chart-info-task-6b)
+Evaluated using the original LineFormer evaluation methodology (ICDAR 2023 Task 6a/6b), which matches predicted lines to ground truth lines using linear interpolation and the Hungarian algorithm.
 
-<!-- **If you would like to cite our work:**
-```latex
+| Model | Task 6a | Task 6b | GT Lines | Detected | Over-detection |
+|-------|---------|---------|----------|----------|----------------|
+| Pre-trained | **0.9471** | 0.6835 | 146 | 237 | +62.3% |
+| Fine-tuned Best (iter_1300) | 0.9180 | 0.7394 | 146 | 179 | +22.6% |
+| **Fine-tuned Final (iter_5000)** | 0.9097 | **0.7836** | **146** | **160** | **+9.6%** |
 
-``` -->
+- **Task 6a**: Measures how well each GT line is matched (no penalty for extra detections)
+- **Task 6b**: Penalizes over-detection — **the more practical metric**
 
-## Model Usage
-### Install Environment
+**Key improvements (Pre-trained → Fine-tuned iter_5000):**
+- Task 6b: 0.6835 → 0.7836 (+14.6%)
+- Over-detection reduced from +62.3% to +9.6%
+- Reduced false positives from text annotations, legends, and axis labels
 
-This code is based on [MMdetection Framework](https://github.com/open-mmlab/mmdetection).
+## Setup
 
-Code has been tested on Pytorch 1.13.1 and CUDA 11.7.
+Based on [MMDetection](https://github.com/open-mmlab/mmdetection). Tested on PyTorch 2.1.0 + CUDA 12.1.
 
-Create Conda Environment and install dependencies:
 ```bash
-conda create -n LineFormer python=3.8
-conda activate LineFormer
+# Create environment
+python -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies
 bash install.sh
 ```
 
+## Inference
 
-### Inference
-
-1. Download the Trained Model Checkpoint [here](https://drive.google.com/drive/folders/1K_zLZwgoUIAJtfjwfCU5Nv33k17R0O5T?usp=sharing)
-2. Use the demo inference snippet shown below
+1. Download the fine-tuned checkpoint from [Hugging Face Hub](https://huggingface.co/t29mato/lineformer-battery-finetuned)
+2. Run inference:
 
 ```python
 import infer
 import cv2
 import line_utils
 
-img_path = "demo/PMC5959982___3_HTML.jpg"
-img = cv2.imread(img_path) # BGR format
+img_path = "your_battery_curve.png"
+img = cv2.imread(img_path)
 
-CKPT = "iter_3000.pth"
+CKPT = "lineformer_battery_iter_5000.pth"
 CONFIG = "lineformer_swin_t_config.py"
-DEVICE = "cpu"
+DEVICE = "cuda:0"
 
 infer.load_model(CONFIG, CKPT, DEVICE)
 line_dataseries = infer.get_dataseries(img, to_clean=False)
 
 # Visualize extracted line keypoints
 img = line_utils.draw_lines(img, line_utils.points_to_array(line_dataseries))
-    
-cv2.imwrite('demo/sample_result.png', img)
-
-
+cv2.imwrite("result.png", img)
 ```
 
-Example extraction result:
+## Model Files
 
-![input image](demo/PMC5959982___3_HTML.jpg "Input")
-![demo result](demo/sample_result.png "Detection Result")
+Two checkpoints are available on [Hugging Face Hub](https://huggingface.co/t29mato/lineformer-battery-finetuned):
+
+| Model | Task 6b | segm_mAP | Over-detection | Best For |
+|-------|---------|----------|----------------|----------|
+| **lineformer_battery_iter_5000.pth** | **0.7836** | 0.1451 | **+9.6%** | **Data extraction accuracy** (recommended) |
+| lineformer_battery_best_iter_1300.pth | 0.7394 | **0.1587** | +22.6% | Mask shape precision |
+
+## Evaluation
+
+Evaluate using the original paper's metric6a/6b:
+
+```bash
+python scripts/eval_metric6a_battery.py --compare-all
+```
+
+## Fine-tuning
+
+```bash
+python lineformer_finetune_battery_gpu.py
+```
+
+### Training Details
+
+- **Optimizer**: SGD (lr=0.0001, momentum=0.9, weight_decay=0.0001)
+- **LR Schedule**: Step decay at iterations [3500, 4750]
+- **Total Iterations**: 5000
+- **Batch Size**: 2
+- **Backbone**: ResNet-50 (frozen, pre-trained on ImageNet)
+- **Train**: 62 images, **Validation**: 19 images
+- **Format**: COCO instance segmentation
+
+## Limitations
+
+- **Dense multi-cycle curves** (e.g., 30-cycle plots): GT=4 lines → Detected=14-17 lines
+- **Dashed lines and annotations**: Non-line elements may be falsely detected
+- **Mask IoU precision**: Low mAP_75 suggests mask boundary accuracy needs improvement
+
+## Project Structure
+
+```
+├── lineformer_finetune_battery_gpu.py  # Fine-tuning script
+├── lineformer_swin_t_config.py         # Model config
+├── infer.py                            # Inference module
+├── eval.py                             # Original evaluation
+├── metric6a.py                         # ICDAR Task 6a/6b metrics
+├── scripts/
+│   ├── eval_metric6a_battery.py        # Battery-specific evaluation
+│   ├── eval_val_dataset.py             # Validation dataset evaluation
+│   ├── wpd_to_coco.py                  # WPD → COCO format conversion
+│   └── filter_wpd.py                   # Data filtering
+├── data_processing/
+│   ├── COCO_Converter.ipynb            # COCO format converter
+│   └── DataFormat.ipynb                # Data format exploration
+└── reports/battery_finetune/           # Fine-tuning results report
+```
 
 ## Citation
-If you found our work useful, please cite us as follows:
-```bib
+
+```bibtex
 @InProceedings{10.1007/978-3-031-41734-4_24,
-author="Lal, Jay
-and Mitkari, Aditya
-and Bhosale, Mahesh
-and Doermann, David",
-editor="Fink, Gernot A.
-and Jain, Rajiv
-and Kise, Koichi
-and Zanibbi, Richard",
-title="LineFormer: Line Chart Data Extraction Using Instance Segmentation",
-booktitle="Document Analysis and Recognition - ICDAR 2023",
-year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="387--400",
-abstract="Data extraction from line-chart images is an essential component of the automated document understanding process, as line charts are a ubiquitous data visualization format. However, the amount of visual and structural variations in multi-line graphs makes them particularly challenging for automated parsing. Existing works, however, are not robust to all these variations, either taking an all-chart unified approach or relying on auxiliary information such as legends for line data extraction. In this work, we propose LineFormer, a robust approach to line data extraction using instance segmentation. We achieve state-of-the-art performance on several benchmark synthetic and real chart datasets. Our implementation is available at https://github.com/TheJaeLal/LineFormer.",
-isbn="978-3-031-41734-4"
+  author="Lal, Jay and Mitkari, Aditya and Bhosale, Mahesh and Doermann, David",
+  title="LineFormer: Line Chart Data Extraction Using Instance Segmentation",
+  booktitle="Document Analysis and Recognition - ICDAR 2023",
+  year="2023",
+  publisher="Springer Nature Switzerland",
+  pages="387--400"
 }
 ```
 
-## Full Plot Data Extraction
-Note: LineFormer returns data in form of x,y points w.r.t the image, to extract full data-values you need to extract axis information. 
-Please refer the following resources:
-* [E2E Line Chart Data extraction](https://github.com/tdsone/extract-line-chart-data) implementation put together by [@tdsone](https://github.com/tdsone)
-* Chart Element Detection [this](https://github.com/pengyu965/ChartDete/) repo.
+## License
+
+Apache 2.0
